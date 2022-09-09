@@ -1,8 +1,8 @@
-package com.example.thithuchanh.sevice.impl;
+package com.example.testmd4.sevice.impl;
 
-import com.example.thithuchanh.model.Country;
-import com.example.thithuchanh.reponsitory.CountryRepository;
-import com.example.thithuchanh.sevice.ICountryService;
+import com.example.testmd4.model.Country;
+import com.example.testmd4.reponsitory.CountryRepository;
+import com.example.testmd4.sevice.ICountryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

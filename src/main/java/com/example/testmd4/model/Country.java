@@ -1,16 +1,12 @@
-package com.example.thithuchanh.model;
+package com.example.testmd4.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "country")
-@Setter
-@Getter
+@Table(name = "countries")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Country {

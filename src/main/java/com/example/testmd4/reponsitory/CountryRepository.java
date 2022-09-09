@@ -1,6 +1,6 @@
-package com.example.thithuchanh.reponsitory;
+package com.example.testmd4.reponsitory;
 
-import com.example.thithuchanh.model.Country;
+import com.example.testmd4.model.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

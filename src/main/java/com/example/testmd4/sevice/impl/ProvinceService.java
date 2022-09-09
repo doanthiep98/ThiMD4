@@ -1,8 +1,8 @@
-package com.example.thithuchanh.sevice.impl;
+package com.example.testmd4.sevice.impl;
 
-import com.example.thithuchanh.model.Province;
-import com.example.thithuchanh.reponsitory.ProvinceRepository;
-import com.example.thithuchanh.sevice.IProvinceService;
+import com.example.testmd4.model.Province;
+import com.example.testmd4.reponsitory.ProvinceRepository;
+import com.example.testmd4.sevice.IProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -6,6 +6,7 @@ function getAllProvince(){
         type:"GET",
         url:"http://localhost:8080/province",
         success :function (data) {
+            console.log(data)
             displayTable(data);
         }
     })
@@ -14,7 +15,7 @@ function displayTable(data){
     let result = ""
     for (let i = 0; i < data.length; i++) {
         result +="<tr >"
-        result+="<td >"+ i+1 +"</td>"
+        result+="<td >"+ (i+1) +"</td>"
         result+="<td><a onclick='showEditForm2("+data[i].id+")'>"+ data[i].name +"</a></td>"
         result+="<td>"+ data[i].country.name +"</td>"
         result+="<td><button onclick='showEditForm("+data[i].id+")'>Update</button></td>"
@@ -72,9 +73,9 @@ function createProvince(){
 function listCountry(){
 $.ajax({
 type:"GET",
-    url:"http://localhost:8080/countries",
+    url:"http://localhost:8080/countries/listContry",
     success: function (listCountry){
-    result = ""
+    let result = ""
         for (let i = 0; i < listCountry.length; i++) {
             result += "<option value="+listCountry[i].id+">"+ listCountry[i].name +"</option>"
         }
